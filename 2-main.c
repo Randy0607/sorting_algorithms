@@ -10,7 +10,6 @@
 int main(void)
 {
 	int array1[] = {19, 48, 99, 71, 13, 52, 96, 73, 86, 7};
-	int array2[] = {2};
 	size_t n = sizeof(array1) / sizeof(array1[0]);
 
 	print_array(array1, n);
