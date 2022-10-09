@@ -18,8 +18,8 @@ int main(void)
 	printf("\n");
 	print_array(array1, n);
 
-	selection_sort(array2, 1);
+	selection_sort(array1, 1);
 	printf("\n");
-	print_array(array2, 1);
+	print_array(array1, 1);
 	return (0);
 }
